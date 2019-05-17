@@ -1,0 +1,452 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ?
+            'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' :
+            'https://ptteng.github.io/PPT/css/reveal/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <img src="https://ptteng.github.io/PPT/img/demo/logo.png" alt="" usemap="#pttmap" class="base-logo">
+    <map name="pttmap">
+        <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com" alt="" target="_blank" />
+    </map>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h4>有几种支付方式？
+                    网关支付，快捷支付分别是什么?
+                    为什么要设置支付密码？</h4>
+                <h4 style="padding-top:60px">分享人：李小燕</h4>
+            </section>
+            <section>
+                <h3 style="text-align:center;margin-bottom: 40px;">目录</h3>
+                <div style="text-align:left;font-size: 20px;">
+                    <p>1.背景介绍</p>
+                    <p>2.有几种支付方式</p>
+                    <p>3.网关支付、快捷支付分别是什么</p>
+                    <p>4.为什么要设置支付密码</p>
+                    <p>5.扩展思考</p>
+                </div>
+
+            </section>
+            <section>
+                <section>
+                    <h3>1.背景介绍</h3>
+                </section>
+
+                <section style="font-family: 'Times New Roman'; text-transform:none;">
+                    <!-- <h4 style="font-family: 'Times New Roman'; text-transform:none;">什么是Ajax？</h4> -->
+                    <section>
+                        <div style="text-align: left;font-size: 20px;padding-top: 60px">
+                            <p style="text-align: center;">什么是支付系统？</p>
+                            <br>
+                            <br>连接消费者、商家（或平台）和金融机构的桥梁，提供资金清算、实现支付指令传送、查询统计等功能的系统。
+                            <br>
+                            <br>听着很高大上，其实简单的来说，就是这么一句话：
+                            <br>
+                            <br>支付系统是业务系统与资金渠道之间的桥梁，是属于联通业务与资金系统的，除了现金交易，另外的交易形式都会要到支付系统， 如刷卡用的POS机支付系统，扫码买东西
+                            用的收银支付系统，转账交易用的 交易支付系统等，都是支付系统。
+                            <br>
+
+                        </div>
+                    </section>
+
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h3>2.有几种支付方式</h3>
+                </section>
+                <section>
+                    <p style="text-align: left;font-size: 20px;">
+                        <br>
+                        <br>（1）信用卡支付
+                        <br>
+                        <br>（2）储蓄卡支付
+                        <br>
+                        <br>（3）第三方支付
+                        <br>
+                        <br>（4）第四方支付
+                        <br>
+                        <br>（5）网银支付
+                        <br>
+
+
+
+
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        信用卡支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>信用卡（Credit Card）是一种非现金交易付款的方式，是简单的信贷服务。</p>
+                            <p>分为贷记卡和准贷记卡，贷记卡是指持卡人拥有一定的信用额度、可在信用额度内先消费后还款的信用卡；
+                                准贷记卡是指持卡人按要求交存一定金额的备用金，当备用金账户余额不足支付时，可在规定的信用额度内透支的准贷记卡。所说的信用卡，一般单指贷记卡。</p>
+                            <p>用信用卡可以提高你的信用度(及时还贷)这样可以向银行贷到较大数额的款项。</p>
+                        </div>
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        储蓄卡支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>储蓄卡是借记卡的一种。</p>
+
+                            <p>主要作用是储蓄存款，持卡人通过银行建立的电子支付网络和卡片所具有的磁条读入和人工密码输入，可实现刷卡消费、ATM提现、转账、各类缴费，通过卡片进行的费用支出等于储蓄账户余额的减少。账户余额为零，该卡的支付作用也降为零。
+                            </p>
+                            <p>储蓄卡的申办十分简单，无需银行进行审批，一般可实现即办即取。</p>
+
+                        </div>
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        第三方支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>字面意思是脱离商户与银行之间的第三方金融支付公司的存在。</p>
+                            <p>有支付牌照的机构，可分为线上支付和线下支付，目前市场上常用的第三方支付有
+
+                                银联商务、银联在线、支付宝、微信支付、财付通、智付支付、快钱！</p>
+                            <p>
+                                在一定程度上解决了网上银行支付方式不能对交易双方进行约束和监督，
+                            </p>
+
+                        </div>
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        第四方支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>也叫做聚合支付，属于支付服务集成商</p>
+                            <p>属于第三方支付平台服务的拓展。第三方支付介于银行和商户之间，而第四方支付是介于第三方支付和商户之间，没有支付许可牌照的限制。相对第三方支付具有费率低，接入难度小，灵活性高等诸多优点。
+                            </p>
+                            <p>
+                                不仅集成各种三方支付平台/合作银行/合作电信运营商/其他服务商接口，也集合了各个第三方支付及多种支付渠道的优势，能够根据商户的需求进行个性化定制，形成支付通道资源互补优势，满足商户需求，提供适合商户的支付解决方案。
+                            </p>
+                            <p> 而且第四方支付更具中立性优势，可以调和主流支付机构恶意竞争的状况，保证支付行业健康发展。</p>
+                        </div>
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        网银支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>
+                                采用银行认证方式完成支付的支付形式。简单说来就是“通过银联在线支付收银台你主动跳转到自己的银行页面按网银界面要求输入信息向支付目标完成支付”。
+                                设计不够方便，需要安装各种插件、助手之类的。用户体验差。
+                            </p>
+                        </div>
+                    </p>
+                </section>
+      
+            </section>
+
+
+            <section>
+                <section>
+                    <h3>3.网关支付，快捷支付分别是什么</h3>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        网关支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>是银行金融网络系统和Internet网络之间的接口，是由银行操作的将Internet上传输的数据转换为金融机构内部数据的一组服务器设备，或由指派的第三方处理商家支付信息和顾客的支付指令。
+
+                            </p>
+                            <p>
+                                所谓支付网关，就是指商户和收单方系统之间的一个中间层，所以并不是指类似需要跳转到第三方平台才叫网关，很多人把网银支付和网关支付混为一谈了。</P>
+                            <p>
+                                所有的交易无论网银也好，接口也好，POS也好都可能经过网关，如果直接是接入到收单方后端系统，那么会绕过网关；所有网关和网银完全是两码事。</P>
+                            <p>
+                                关系：都不是一个维度的东西，谈关系不合适，硬要扯，就是无论银联代扣也好、快捷支付也好、银行卡支付都可能会涉及到网关.</P>
+                        </div>
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        快捷支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>快捷支付一般是指首次需要验证卡要素，生成协议号或者TOKEN,后面支付直接凭协议号扣款。走的交易形式是消费。快捷支付相比于我们原先说的无磁无密支付[MOTO]在限额上有劣势，体验上有优势。
+
+                            </p>
+                            <p>
+                                一个相当于长期关系，MOTO相当于一次性关系，每次来都要输入卡要素。</P>
+                            <p>
+                                很多人觉得快捷支付主要的用的是银行代扣，这是两件事。</P>
+                            <p>
+                                关系：快捷支付基本上用的是银行卡支付，本身可以把代扣通道用于包装快捷产品。</P>
+                        </div>
+                    </p>
+                </section>
+                <section>
+                    <p style="text-align: center;">
+                        认证支付
+                        <br>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p>
+                                    认证支付：原来叫银行协议认证支付，认证支付首先是校验你的手机验证码，成功以后才会发往发卡银行。
+                                    交易到达发卡银行后，银行会根据卡号和手机号码去进行匹配，必须与客户资料中的手机号码一致才会允许交易。
+                            </p>
+                          
+                        </div>
+                    </p>
+                </section>
+
+            </section>
+
+
+            <section style="font-family: 'Times New Roman'; text-transform:none;">
+                <section>
+                    <h3>4.为什么要设置支付密码</h3>
+                </section>
+
+                <section>
+                    <p>
+                        <div style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem">
+                            <p> 为了验证客户身份的依据，早先是签名认证，但是由于签名是可以模仿的。
+                                后来采用签名认证+密码，因为密码支付带来更多的安全性来减小资金风险，而无密码则发生了更多的可能性。
+                                现在使用的是密码支付，主要是为了用户体验。（密码支付比签名认证更安全）
+                            </p>
+                        </div>
+                    </p>
+                </section>
+
+            </section>
+
+
+            <section>
+                <section>
+                    <h3>5.扩展思考</h3>
+                    <div
+                        style="text-align: left; font-size: 20px;line-height: 24px;text-indent: 2rem;padding-top: 40px">
+                        <p>你会开通免密支付吗？为什么呢？</p>
+
+                        <p>这些支付方式里面，你用什么支付方式支付的最多？为什么？</p>
+
+                        <p>为什么很多产品都是接入第三方支付平台进行支付？</p>
+
+                        <p>电子商务常用的支付方式有哪些？</p>
+
+                        <p>什么是第四方支付？你会用么？为什么？
+
+                        </p>
+
+                    </div>
+                </section>
+            </section>
+
+
+
+
+            <section>
+                <h3>5.扩展思考</h3>
+                <section style="font-family: 'Times New Roman'; text-transform:none;">
+
+                </section>
+
+            </section>
+
+
+            <section>
+                <h4>鸣谢</h4>
+                <p>感谢大家观看</p>
+                <p>
+                    By
+                    <small style="vertical-align: middle">李小燕</small>
+                </p>
+
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+    <script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+
+    <script>
+        // 以下为常见配置属性的默认值
+        // {
+        // 	controls: true, // 是否在右下角展示控制条
+        // 	progress: true, // 是否显示演示的进度条
+        // 	slideNumber: false, // 是否显示当前幻灯片的页数编号，也可以使用代码slideNumber: 'c / t' ，表示当前页/总页数。
+        // 	history: false, // 是否将每个幻灯片改变加入到浏览器的历史记录中去
+        // 	keyboard: true, // 是否启用键盘快捷键来导航
+        // 	overview: true, //                                                                                                                                                                                                                                                                                                      是否启用幻灯片的概览模式，可使用"Esc"或"o"键来切换概览模式
+        // 	center: true, // 是否将幻灯片垂直居中
+        // 	touch: true, // 是否在触屏设备上启用触摸滑动切换
+        // 	loop: false, // 是否循环演示
+        // 	rtl: false, // 是否将演示的方向变成RTL，即从右往左
+        // 	fragments: true, // 全局开启和关闭碎片。
+        // 	autoSlide: 0, // 两个幻灯片之间自动切换的时间间隔（毫秒），当设置成 0 的时候则禁止自动切换，该值可以被幻灯片上的 ` data-autoslide` 属性覆盖
+        // 	transition: 'default', // 切换过渡效果，有none/fade/slide/convex/concave/zoom
+        // 	transitionSpeed: 'default', // 过渡速度，default/fast/slow
+        // 	mouseWheel: true, //是否启用通过鼠标滚轮来切换幻灯片
+        // }
+        // 初始化幻灯片
+        Reveal.initialize({
+            //        history: true,
+            transition: 'default',
+            transitionSpeed: 'slow',
+            dependencies: [{
+                src: '../plugin/markdown/marked.js'
+            },
+            {
+                src: '../plugin/markdown/markdown.js'
+            },
+            {
+                src: '../plugin/notes/notes.js',
+                async: true
+            },
+            {
+                src: '../plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+            ]
+        });
+        //    原始类型对象直接赋值不会相互影响
+        //    var a = 1;
+        //
+        //    var b = a;
+        //    b = 10;
+        //    console.log(a); // 1
+        ////
+        //    var a = 'hello';
+        //    var b = a;
+        //    b = 'world';
+        //    console.log(a); // hello
+        //
+        //    var a = true;
+        //    var b = a;
+        //    b = false;
+        //    console.log(a);
+        //数组浅复制
+        //    var a = ['隔壁老王','冠希哥', '宋经理' //定义一个名为a的属猪，里面有3个值，
+        //    ];
+        //    var b = a;   //定义一个变量b，把a赋值给他，这样比、b和a一样了
+        //    b[2] = '冲冲老师'; //然后把b的第三个值等于冲冲老师
+        //    console.log(a)//那么现在打印a 是什么结果呢
+        //
+        //    var arr = ["One","Two","Three"];   //数组的深复制，slice方法
+        //    var arrtoo = arr.slice(1);
+        //    arrtoo[2] = "set Map";
+        //    console.log(arr);//One,Two,Three
+        //    console.log(arrtoo);//One,set Map,Three
+        //
+        //    var arr1 = ["One","Two","Three"]; //数组的深复制，concat 方法
+        //    var arrtooo = arr1.concat(111111);
+        //    arrtooo[1] = "set Map To";
+        //    console.log(arr1);//One,Two,Three
+        //    console.log(arrtooo);//One,set Map To,Three
+        //
+        //    var b=[1,2,3,4,5];   //concat的链接
+        //    var c=[6,7,8,9];
+        //    var d =[4,4,22]
+        //    console.log(b.concat(c,d))
+        var a = {
+            name: 'yy',
+            age: 26
+        }; //对象的浅拷贝哦
+        var b = new Object();
+        b.name = a.name;
+        b.age = a.age;
+        b.name = 'xx';
+        console.log(a); //Object { name="yy", age=26}
+        console.log(b); //Object { name="xx", age=26}
+        var d = { //对象的浅拷贝哦 第一种
+            name: 'd',
+            oc: {
+                age: 32
+            },
+            oad: {
+                adds: {
+                    bb: 12
+                }
+            }
+        };
+        var deepCopy = function (source) {
+            var result = {};
+            for (var key in source) {
+                result[key] = typeof source[key] === 'object' ? deepCopy(source[key]) : source[key]
+            }
+            return result
+        };
+        var c = deepCopy(d);
+        c.name = 'c';
+        c.oc = {
+            age: 49
+        };
+        console.log(c);
+        console.log(d);
+        //    var person = {    //第二种深拷贝
+        //        name: 'aa',
+        //        friends: ['da', 'dsa', 'gf']
+        //    };
+        //
+        //    var aPerson = Object.create(person, {
+        ////        name: {
+        ////            value: "gee"
+        ////        }
+        //    });
+        //
+        //    console.log(person.name);
+        //    console.log(aPerson.friends)
+        var Chinese = {
+            nation: '中国'
+        }
+        var Doctor = {
+            career: '医生'
+        }
+
+        function extendCopy(p) {
+            var c = {};
+            for (var i in p) {
+                c[i] = p[i];
+            }
+            c.uber = p;
+            return c;
+        }
+        var Doctor = extendCopy(Chinese);
+        Doctor.career = '医生';
+        console.log(Doctor); // 中国
+        Chinese.birthPlaces = ['北京', '上海', '香港'];
+        var Doctor = extendCopy(Chinese);
+        Doctor.birthPlaces.push('厦门');
+    </script>
+</body>
+
+</html>
